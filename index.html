@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang tin tức</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- THANH MENU -->
+    <div class="header">
+        <div class="menu">
+            <a href="#" class="active">NÓNG</a>
+            <a href="#">MỚI</a>
+            <a href="#">VIDEO</a>
+            <a href="#">CHỦ ĐỀ</a>
+        </div>
+        <!-- Ô TÌM KIẾM -->
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Nhập nội dung tìm kiếm">
+            <button onclick="timKiem()">🔍</button>
+        </div>
+        <!-- NÚT MENU -->
+        <button class="menu-button" onclick="moMenu()">
+            ☰
+        </button>
+    </div>
+    <!-- NỘI DUNG TRANG -->
+    <div class="container">
+        <!-- KHU VỰC TIN CHÍNH -->
+        <div class="news-layout">
+            <!-- TIÊU ĐỀ TIN CHÍNH -->
+            <div class="main-title">
+                <h1> Tổng Bí thư, Chủ tịch nước Tô Lâm sắp công tác tại Mỹ và thăm cấp Nhà nước Canada </h1>
+                <p> Tổng Bí thư, Chủ tịch nước Tô Lâm sẽ tham dự Phiên thảo luận chung cấp cao Đại hội đồng Liên Hợp Quốc (LHQ) Khóa 81,
+                    hoạt động song phương tại Mỹ và... </p>
+            </div>
+            <!-- ẢNH TIN CHÍNH -->
+            <div class="main-image">
+                <img src="img/main.avif">
+            </div>
+            <!-- TIN BÊN PHẢI -->
+            <div class="right-news">
+                <div class="side-news">
+                    <h2> Tổng Bí thư, Chủ tịch nước: Không luân chuyển cán bộ chỉ để hoàn thiện hồ sơ </h2>
+                </div>
+                <div class="side-news">
+                    <h2> Quản lý và sử dụng nguồn thu từ cơ cấu lại doanh nghiệp hiệu quả </h2>
+                </div>
+                <div class="side-news">
+                    <h2> Chủ động ứng phó mưa lũ, bảo đảm an toàn vùng ven sông Đáy</h2>
+                </div>
+                <div class="side-news">
+                    <h2> Hà Nội: Đâm hàng xóm tử vong vì bị chửi, dọa đánh nếu để nước chảy sang nhà </h2>
+                </div>
+                <div class="side-news">
+                    <h2> Đề xuất chuyển Tập đoàn Điện lực Việt Nam về Bộ Công Thương </h2>
+                </div>
+                <div class="side-news">
+                    <h2> Khu dân cư, Quốc lộ 1 và đường sắt Bắc-Nam ở Thanh Hóa chìm trong biển nước </h2>
+                </div>
+            </div>
+        </div>
+        <!-- 3 TIN NHỎ -->
+        <div class="small-news">
+            <div class="small-card">
+                <img src="img/tin1.avif">
+                <h3> Tặng thưởng Huân chương Dũng cảm cho cô giáo Hoàng Thị Hiền xả thân cứu học trò </h3>
+            </div>
+            <!-- TIN 2 -->
+            <div class="small-card">
+                <img src="img/tin2.avif">
+                <h3> ‘Người Nhện: Khởi đầu mới’ lập kỷ lục doanh thu phòng vé Bắc Mỹ </h3>
+            </div>
+            <!-- TIN 3 -->
+            <div class="small-card">
+                <img src="img/tin3.avif">
+                <h3> Năm 2027, dự kiến còn 3 phương thức xét tuyển đại học cho mỗi ngành đào tạo </h3>
+            </div>
+        </div>
+    </div>
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
